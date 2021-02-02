@@ -7,5 +7,6 @@ public class Main {
         bankAccount.addTransaction(new Withdraw(10));
 
         bankAccount.printTransactions();
+        System.out.println("something");
     }
 }
